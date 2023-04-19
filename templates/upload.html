@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="eng">
+   <head>
+      <style>
+         body {
+            background-color: blanchedalmond;
+         }
+         h1 {
+            text-align: center;
+         }
+         form {
+            margin: 0 auto;
+            width: 50%;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+         }
+      </style>
+   </head>
+   <body style="text-align: center;">
+      <h1>Upload an image for gender classification</h1>
+      <form method="POST" action="{{ url_for('predict') }}" enctype="multipart/form-data">
+         <input type="file" name="image">
+         <input type="submit" value="Predict">
+      </form>
+   </body>
+</html>
