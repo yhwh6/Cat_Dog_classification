@@ -2,10 +2,10 @@
 
 * Just a sample of the Flask + Google Collab project for classification
 
-![Image](sample_1.png)
-![Image](sample_2.png)
+![Image](scrn_1.png)
+![Image](scrn_2.png)
 
-![WEB](https://colab.research.google.com/drive/1aaNXV2azx-r0zz9SCkinF7BtG8YQwCnb)
+[Google Collab link](https://colab.research.google.com/drive/1aaNXV2azx-r0zz9SCkinF7BtG8YQwCnb?usp=sharing)
 
 ## How to start
 
